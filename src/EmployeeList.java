@@ -18,7 +18,7 @@ public class EmployeeList {
         while (num < 2) {
             head.setNext(succeeding);   //set head next to point to succeeding, but the loop resets this back to head
             test.setConsoleInput(head.worker);
-            System.out.print(head.worker + " ********************line 13\n");  //this is all fucked up!!!!!!!!!!!!!!!!
+            System.out.print(head.worker + " ********************line 13\n");  //THIS IS ALL FUCKED UP!!!!!!!!!!!!!!!
             test.setConsoleInput(succeeding.worker);
             succeeding.setNext(tail);
             System.out.println(succeeding.worker);
@@ -29,7 +29,7 @@ public class EmployeeList {
         System.out.println(head.worker); //all you are doing is overwriting head.worker!!!!
 
         while (tail.next != null) {
-           System.out.println(tail.worker); //??????????????????????????????????????????????
+           System.out.println(tail.worker); //??????THIS DOES NOT WORK!!!!!!!!!!!!!!!!!
         }
     
     }       
