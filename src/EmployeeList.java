@@ -1,5 +1,5 @@
 //import java.util.*;
-
+//THIS IS THE LINKED LIST CLASS
 public class EmployeeList {
  // this tries to create a linked list of nodes. It doesn't work.!!!!!!!!!!!!!!!!!!!   
 //    private static int num = 0;
@@ -11,12 +11,14 @@ public class EmployeeList {
         Node head, succeeding, tail;    //these nodes don't exist YET!!        
         head = new Node();              //initialize head
         test.setConsoleInput(head.worker);
-        head.next = null;               //set pointer "next" to point to null
+//        head.next = null;               //set pointer "next" to point to null
         System.out.println("head.worker is: \n" + head.worker); //worker of node head
-        System.out.println("head.next is " + head.next);
-        tail = head;                    //set tail to point to head???
+        System.out.println("head.next is " + head.next + "\n");
+//        tail = head;                    //set tail to point to head???
         succeeding = new Node();        //initialize succeeding
-//        System.out.println(head.succeeding);   //THIS DOESN'T WORK!!!!!!!!
+        test.setConsoleInput(succeeding.worker);
+        System.out.println("\nThis is succeeding worker: \n" + succeeding.worker);   
+        
 /*        for(int i = 0; i <= 2; i++) {     //  04-05-16 COMMENTED OUT AS LOOP DOESN'T SEEM TO WORK!!
             head.setNext(succeeding);   //set head next to point to succeeding, but the loop resets this back to head
             test.setConsoleInput(head.worker);
