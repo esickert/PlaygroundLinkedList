@@ -2,7 +2,7 @@
 
 public class EmployeeList {
  // this tries to create a linked list of nodes. It doesn't work.!!!!!!!!!!!!!!!!!!!   
-    private static int num = 0;
+//    private static int num = 0;
 
     static EmployeeConsoleView test = new EmployeeConsoleView();
     
@@ -12,10 +12,12 @@ public class EmployeeList {
         head = new Node();              //initialize head
         test.setConsoleInput(head.worker);
         head.next = null;               //set pointer "next" to point to null
-        System.out.println(head.worker + " line 9\n"); //worker of node head
+        System.out.println("head.worker is: \n" + head.worker); //worker of node head
+        System.out.println("head.next is " + head.next);
         tail = head;                    //set tail to point to head???
         succeeding = new Node();        //initialize succeeding
-        while (num < 2) {
+//        System.out.println(head.succeeding);   //THIS DOESN'T WORK!!!!!!!!
+/*        for(int i = 0; i <= 2; i++) {     //  04-05-16 COMMENTED OUT AS LOOP DOESN'T SEEM TO WORK!!
             head.setNext(succeeding);   //set head next to point to succeeding, but the loop resets this back to head
             test.setConsoleInput(head.worker);
             System.out.print(head.worker + " ********************line 13\n");  //THIS IS ALL FUCKED UP!!!!!!!!!!!!!!!
@@ -25,14 +27,15 @@ public class EmployeeList {
             tail = succeeding;
             System.out.println(tail.worker); 
             num++;
-        }
-        System.out.println(head.worker); //all you are doing is overwriting head.worker!!!!
+        }  */
+//        System.out.println(head.worker + "head******************"); //all you are doing is overwriting head.worker!!!!
+//        System.out.println(tail.worker + "tail**************");
 
-        while (tail.next != null) {
-           System.out.println(tail.worker); //??????THIS DOES NOT WORK!!!!!!!!!!!!!!!!!
-        }
+//        while (tail.next != null) {
+//           System.out.println(tail.worker); //??????THIS DOES NOT WORK!!!!!!!!!!!!!!!!!
+}
     
     }       
-}
+//}
 
 

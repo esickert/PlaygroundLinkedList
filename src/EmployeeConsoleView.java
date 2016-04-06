@@ -13,7 +13,7 @@ public class EmployeeConsoleView extends Employee	{ //NO PARENTHSES!!!
     public Employee setConsoleInput(Employee a) {
 
         Scanner userInput = new Scanner(System.in);
-// opens and then closes the IO session Scanner
+// opens and then closes the IO session Scanner  CAN'T DO THIS AS NEED SCANNER OPEN FOR LOOP.
 //        try	{
         	System.out.print("Please enter your name: ");
         	String b = userInput.nextLine();
