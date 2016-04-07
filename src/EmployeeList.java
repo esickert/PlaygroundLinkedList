@@ -19,8 +19,16 @@ public class EmployeeList {
         head.setNext(nextNode);
         test.setConsoleInput(nextNode.worker);
         System.out.println("\nThis is succeeding worker: \n" + nextNode.worker);
+        tail = new Node();
 
-        System.out.println(head.next + " This is the next link!!! I think!!!!"); 
+        System.out.println(head.next + " This is the next link!!! I think!!!!\n");
+        System.out.println(nextNode.worker + " This IS the next link!!!! Okay I think this is working\n");
+        System.out.println(head.worker + " First node in linked list - okay this is working"); 
+        System.out.println(nextNode.next);  //this is null. That's why its not printing!!!!!!!!!!!!!!!!
+        
+        while (tail.next != null) {
+        	System.out.println(nextNode.worker);
+        }
 
 /*        for(int i = 0; i <= 2; i++) {     //  04-05-16 COMMENTED OUT AS LOOP DOESN'T SEEM TO WORK!!
             head.setNext(succeeding);   //set head next to point to succeeding, but the loop resets this back to head
