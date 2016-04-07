@@ -1,7 +1,7 @@
 //import java.util.*;
 //THIS IS THE LINKED LIST CLASS
 public class EmployeeList {
- // this tries to create a linked list of nodes. It doesn't work.!!!!!!!!!!!!!!!!!!!   
+ // this tries to create a linked list of nodes. It doesn't work.!!!!!!!!!!!!!!!!!!!  IT CREATES A 2 NODE LIST.   
 //    private static int num = 0;
 
     static EmployeeConsoleView test = new EmployeeConsoleView();
@@ -26,8 +26,6 @@ public class EmployeeList {
         System.out.println(head.worker + " First node in linked list - okay this is working"); 
         System.out.println(nextNode.next);  //this is null. That's why its not printing!!!!!!!!!!!!!!!!
         
-        while (tail.next != null) {
-        	System.out.println(nextNode.worker);
         }
 
 /*        for(int i = 0; i <= 2; i++) {     //  04-05-16 COMMENTED OUT AS LOOP DOESN'T SEEM TO WORK!!
@@ -48,7 +46,7 @@ public class EmployeeList {
 //           System.out.println(tail.worker); //??????THIS DOES NOT WORK!!!!!!!!!!!!!!!!!
 }
     
-    }       
+         
 //}
 
 
