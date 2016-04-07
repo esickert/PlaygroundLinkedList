@@ -42,4 +42,11 @@ public class Node  {  //page 892 in Wu's book .pdf
     public int getCnt() {
         return cnt;
     }
+    
+     public String toString()	{
+    	String result = "Name: " + worker.getName() + "\n"
+    			 + "SSN#: " + worker.getSsn() + "\n"
+    			 + "Salary: $" + worker.getSalary();
+    	return result;
+    } 
 }
