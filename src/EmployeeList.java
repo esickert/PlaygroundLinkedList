@@ -23,8 +23,8 @@ public class EmployeeList {
 
         System.out.println(head.next + " This is the next link!!! I think!!!!\n");
         System.out.println(nextNode.worker + " This IS the next link!!!! Okay I think this is working\n");
-        System.out.println(head.worker + " First node in linked list - okay this is working"); 
-        System.out.println(nextNode.next);  //this is null. That's why its not printing!!!!!!!!!!!!!!!!
+        System.out.println(head.worker + "First node in linked list - okay this is working\n"); 
+        System.out.println(nextNode.next + "  this is null. That's why its not printing in while loop!!!!!!!!!!!!!!!!");  //this is null. That's why its not printing!!!!!!!!!!!!!!!!
         
         }
 
